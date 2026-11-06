@@ -18,7 +18,7 @@ jobs:
     env:
       DNS: ${{ vars.DNS }}
       BLOCK: ${{ vars.BLOCK }}
-      REDIRECT: ${{ vars.REDIRECT }}
+            REDIRECT: https://raw.githubusercontent.com/Internet-Helper/GeoHideDNS/refs/heads/main/hosts/hosts,https://raw.githubusercontent.com/ImMALWARE/dns.malw.link/master/hosts
       EXCLUDE_REDIRECT: ${{ vars.EXCLUDE_REDIRECT }}
       DONOR_DNS: ${{ vars.DONOR_DNS }}
 
